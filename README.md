@@ -1,4 +1,4 @@
 AutoCAD.js
 ==========
 
-AutoCAD in JavaScript
+Develop Autodesk AutoCAD in JavaScript.
