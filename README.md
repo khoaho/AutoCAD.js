@@ -1,9 +1,10 @@
 AutoCAD.js
 ==========
 
-Develop Autodesk AutoCAD in JavaScript, with different APIs from Autodesk
+Develop Autodesk AutoCAD in JavaScript, with different APIs from Autodesk.
 
 AutoCAD.js should come with .NETScript for AutoCAD which is downloaded at www.NetOnApp.com
+
 
 **JavaScript APIs of AutoCAD.js:**
 
