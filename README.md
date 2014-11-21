@@ -1,7 +1,7 @@
 AutoCAD.js
 ==========
 
-Develop Autodesk AutoCAD in JavaScript, with different APIs from Autodesk.
+Develop Autodesk AutoCAD in JavaScript, with different APIs from Autodesk. AutoCAD.js makes JavaScript in AutoCAD as easy to use as possible.
 
 AutoCAD.js should come with .NETScript for AutoCAD which is downloaded at www.NetOnApp.com
 
@@ -23,3 +23,11 @@ Select all circles with specified radius:
 Update layer name of all blocks:
 
     db("block").update("layer", "0");
+
+Run AutoCAD command:
+
+    db().runCommand("LINE");
+    
+Zoom extents:
+
+    db().zoomExtents();
