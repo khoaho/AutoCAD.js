@@ -31,3 +31,13 @@ Run AutoCAD command:
 Zoom extents:
 
     db().zoomExtents();
+
+Register an event handler:
+    db().addEvent("commandEnded", function () {
+    	// Do extra work after the command is ended
+    });
+    
+Remove an event handler:
+    db().removeEvent("beginQuit");
+
+More APIs and demos are in development...
