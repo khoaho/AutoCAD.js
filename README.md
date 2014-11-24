@@ -1,14 +1,14 @@
-AutoCAD.js
+JavaScript APIs for CAD
 ==========
 
-Develop Autodesk AutoCAD in JavaScript, with different APIs from Autodesk. AutoCAD.js makes JavaScript in AutoCAD as easy to use as possible.
+Develop CAD software in JavaScript, with different APIs from Autodesk. JavaScript APIs for CAD makes JavaScript in AutoCAD® (version 2010 to recent 2015), BricsCAD®, ZWCAD++ as easy to use as possible.
 
-AutoCAD.js should come with .NETScript for AutoCAD which is downloaded at www.NetOnApp.com
+JavaScript APIs for CAD should come with .NETScript which is downloaded at www.NetOnApp.com
 
 
-**JavaScript APIs of AutoCAD.js:**
+**CADapi.js : JavaScript APIs for CAD**
 
-Select all layers in the current AutoCAD database:
+Select all layers in the current AutoCAD/BricsCAD/ZWCAD++ database:
 
     var layers = db("layer");
 
